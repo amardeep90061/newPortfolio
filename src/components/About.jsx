@@ -22,8 +22,8 @@ const About = () => {
       viewport={{once:true}} id='about'>
         <div className='text-center text-4xl mt-18'>About Me</div>
     <div className='flex justify-between p-2 sm:py-10 sm:px-20'>
-      <div className="right">
-        <div className="about-para w-full mt-16">
+      <div className="right w-full">
+        <div className="about-para lg:w-full mt-16">
             <p>An experienced Full Stack Developer and technologist, I specialize in delivering stable, high-impact solutions across the full development lifecycle. With a decade of expertise in development and critical testing, I've successfully partnered with numerous prestigious clients, ensuring the reliability and organizational success of every application</p>
             <br /> <br />
             <p>My extensive experience across the entire technology stack speaks to my passion for building solutions, which is further amplified by the enthusiasm and dedication I bring to each project.</p>
@@ -43,17 +43,17 @@ const About = () => {
             <motion.div initial={{opacity:0, y:40}}
       whileInView={{opacity:1,y:0}}
       transition={{duration:0.8}}
-      viewport={{once:true}} className="about-achivements flex justify-center gap-14 mt-26 text-center">
+      viewport={{once:true}} className="about-achivements flex justify-center gap-4 lg:gap-14 mt-26 text-center">
                 <div className="about-achievement">
                     <h1 className='text-3xl font-bold mb-2'>2+</h1>
                     <p>YEARS OF EXPERIENCE</p>
                 </div>
-                <hr className='h-16 w-[1px] bg-white'/>
+                <hr className='h-22 lg:h-16 w-[1px] bg-white'/>
                 <div className="about-achievement">
                     <h1 className='text-3xl font-bold mb-2'>5+</h1>
                     <p>PROJECT COMPLETED</p>
                 </div>
-                <hr className='h-16 w-[1px] bg-white'/>
+                <hr className='h-22 lg:h-16 w-[1px] bg-white'/>
                 <div className="about-achievement">
                     <h1 className='text-3xl font-bold mb-2'>2+</h1>
                     <p>HAPPY CLIENTS</p>

@@ -39,7 +39,7 @@ const Hero = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1 }}
           viewport={{ once: true }}
-          className="w-120 sm:w-150 mt-4 text-[#586065]"
+          className="w-90 sm:w-150 mt-4 text-[#586065]"
         >
           I am a full stack developer with the experince of 2+ years working
           with Happiest Mind Technologies Limited.

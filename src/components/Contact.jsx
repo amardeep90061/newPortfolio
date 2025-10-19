@@ -33,7 +33,7 @@ const Contact = () => {
                   <div className="text-center text-4xl mt-2 mb-2">Get in Touch</div>
 
         </div>
-        <div className="contact-section flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-around p-1 lg:p-4 mt-5">
+        <div className="contact-section flex flex-col w-full lg:flex-row gap-10 lg:gap-0 items-center justify-around p-1 lg:p-4 mt-5">
             <motion.div initial={{opacity:0,y:-30}}
         whileInView={{opacity:1,y:0}}
         transition={{duration:0.4,delay:0.3}}
@@ -63,11 +63,11 @@ const Contact = () => {
         transition={{duration:0.5,delay:0.4}}
         viewport={{once:true}} onSubmit={onSubmit} className="contact-right flex flex-col w-full lg:w-1/2 p-1 lg:p-4 gap-4">
                 <label htmlFor="" className='text-2xl'>Your Name</label>
-                <input type="text" className='border-none w-[500px] lg:w-[600px] h-[60px] pl-5 rounded bg-[#32323c] text-[#A0A0A0] font-outfit text-xl' placeholder='Enter your name' name='name'/>
+                <input type="text" className='border-none w-full lg:w-[600px] h-[60px] pl-5 rounded bg-[#32323c] text-[#A0A0A0] font-outfit text-xl' placeholder='Enter your name' name='name'/>
                 <label htmlFor="" className='text-2xl'>Your Email</label>
-                <input type="eamil" className='border-none w-[500px] lg:w-[600px] h-[60px] pl-5 rounded bg-[#32323c] text-[#A0A0A0] font-outfit text-xl' placeholder='Enter your email' name='email'/>
+                <input type="eamil" className='border-none w-full lg:w-[600px] h-[60px] pl-5 rounded bg-[#32323c] text-[#A0A0A0] font-outfit text-xl' placeholder='Enter your email' name='email'/>
                 <label htmlFor="" className='text-2xl'>Write your message here</label>
-                <textarea type="text" rows="5"className="w-[500px] lg:w-[600px] border-none p-6 rounded bg-[#32323c] text-[#A0A0A0] font-outfit text-xl" placeholder='Enter your message' name='message'></textarea>
+                <textarea type="text" rows="5"className="w-full lg:w-[600px] border-none p-6 rounded bg-[#32323c] text-[#A0A0A0] font-outfit text-xl" placeholder='Enter your message' name='message'></textarea>
                 <button type="submit" className="contact-submit border-2 border-white rounded-full w-44 px-10 py-2 mx-4 mt-4 hover:scale-105 transition-all duration-300 cursor-pointer">Submit now</button>
             </motion.form>
         </div>
