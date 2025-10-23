@@ -59,7 +59,7 @@ const Hero = () => {
             <motion.a initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 1 }}
-              href="src/assets/Amardeep_Prajapati_SDE.pdf"
+              href="/Amardeep_Prajapati_SDE.pdf"
               className="border-2 border-white rounded-full px-6 py-2 cursor-pointer hover:scale-105 transition-all duration-300"
               download
             >
